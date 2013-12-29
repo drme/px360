@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<theme name="wp7" skinned="true" defaultfont="Tahoma">
+
+	<window
+		windowBorderSize			= "4"
+		windowBorderOffset			= "2"
+		windowSplitImagePosition	= "59"
+		windowSplitWidth			= "32"
+		windowTitleHeight			= "22"
+		windowSplitPosition			= "175"
+		windowShadowSize			= "8"
+	/>
+
+  <!--colors
+		ControlLight		= "#255,255,255,255"
+		ControlDark			= "#128,128,128,255"
+		ControlDarkDark		= "#64,64,64,255"
+		Control				= "#212,208,200,255"
+		HighlightBorder		= ""
+		TextDark			= ""
+		TextLight			= ""
+		BackLight			= ""
+		BackBorder			= ""
+		BackLightLight		= ""
+		BorderDark			= ""
+		WindowTitleStart	= "#127,127,127,255"
+		WindowTitleEnd		= "#91,91,91,255"
+		Window				= "White"
+	/-->
+
+	<borders>
+
+		<border
+			control			= "control" 
+			bordersFolder	= "control/borders" 
+		/>
+
+    <control
+      control			  = "button"
+			imagesPrefix	= "images/button_"
+			borderWidth		= "2"
+			backColor     = "White"
+			backImage		  = "images/button_back"
+		/>
+
+    <border
+			control     = "label"
+			backColor		= "None"
+      backImage   = ""
+		/>
+
+    <border
+			control     = "panel"
+			backColor		= "None"
+      backImage   = ""
+		/>
+
+    <border
+			control			= "textBox"
+			backColor		= "White"
+		/>
+
+    <border
+			control			= "checkBox"
+			backColor		= "White"
+      controlSize ="13"
+		/>
+
+    <control
+			control			= "scrollBar"
+			backColor		= "White"
+		/>
+
+  </borders>
+
+</theme>

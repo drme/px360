@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window moveable="false" sizeable="false" borderStyle="None" backColor="None" width="800" height="480" x="0" y="0">
+
+	<panel x="300" y="0" width="500" height="200" backColor="None" name="infoPanel"/>
+
+	<panel x="0" y="408" width="800" height="72" anchor="11" backColor="#140,198,63,255" name="statusPanel">
+
+		<label name="gameTextBox" x="23" y="10" width="517" height="52" borderStyle="None" backColor="None" text.color="#198,198,198,255" font.size="22" anchor="11"/>
+
+		<button borderStyle="None" name="statusButton" x="653" y="0" width="73" height="73" anchor="14" icon="g_ui/icons/bt" backColor="None" backImage=""/>
+
+		<button borderStyle="None" name="settingsButton" x="727" y="0" width="73" height="73" anchor="14" icon="g_ui/main_menu/settings-plain" backColor="None" backImage=""/>
+
+	</panel>
+
+</window>

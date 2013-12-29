@@ -1,0 +1,9 @@
+<shader name="g_ui/main_menu/spinner">
+
+	<layer map="g_ui/main_menu/spinner">
+
+		<tcmod function="rotate" angleps="180"/>
+
+	</layer>
+
+</shader>

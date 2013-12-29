@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window minWidth="510" minHeight="400" height="400" text="Select Game" width="510" modal="true" centerDesktop="true" hasShadow="true">
+  <button anchor="10" height="23" text="Cancel" width="75" x="430" y="350" dialogResult="cancel"/>
+  <scrollPanel name="gamesList" backColor="None" borderStyle="Lowered" anchor="15" height="342" width="498" x="7" y="5"/>
+</window>

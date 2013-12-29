@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window allwaysOnTop="true" backColor="Control" opacity="0.9" minWidth="500" minHeight="400" text="Console" x="90" y="70" width="500" height="400" >
+
+	<button anchor="10" text="Submit" x="420" y="350" width="75" height="23" cursor="PointerHand" name="btnSubmit" />
+
+	<textBox
+		backColor	= "None"
+		anchor		= "11"
+		name		= "tbInput"
+		x			= "7"
+		y			= "350"
+		height		= "23"
+		width		= "410"
+		borderStyle	= "Lowered"
+		hintText	= "enter console command"
+	/>
+
+	<scrollPanel backColor="None" borderStyle="Lowered" anchor="15" x="7" y="5" width="488" height="342" opacity="0.8" name="spLog">
+
+		<textBox
+			backColor	= "None"
+			borderStyle	= "None"
+			autoSize	= "true"
+			autoShrink	= "false"
+			name		= "tbLog"
+			x			= "0"
+			y			= "0"
+			width		= "470"
+			height		= "330"
+			multiLine	= "true"
+		/>
+
+	</scrollPanel>
+
+</window>

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X360ControllerWin", "X360ConrollerWin\X360ConrollerWin\X360ControllerWin.csproj", "{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X360ControllerContent", "X360ConrollerWin\X360ConrollerWinContent\X360ControllerContent.contentproj", "{E72EA48E-A31C-4B87-86A6-A0C25AB52065}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|Windows Phone = Debug|Windows Phone
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|Windows Phone = Release|Windows Phone
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|Win32.ActiveCfg = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|Windows Phone.ActiveCfg = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|Windows Phone.Build.0 = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|x86.ActiveCfg = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Debug|x86.Build.0 = Debug|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|Any CPU.ActiveCfg = Release|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|Win32.ActiveCfg = Release|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|Windows Phone.ActiveCfg = Release|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|Windows Phone.Build.0 = Release|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|x86.ActiveCfg = Release|x86
+		{1A3F28F3-EAC2-4E6D-B341-17EB777087F9}.Release|x86.Build.0 = Release|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Debug|Win32.ActiveCfg = Debug|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Debug|Windows Phone.ActiveCfg = Debug|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Debug|x86.ActiveCfg = Debug|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Release|Any CPU.ActiveCfg = Release|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Release|Win32.ActiveCfg = Release|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Release|Windows Phone.ActiveCfg = Release|x86
+		{E72EA48E-A31C-4B87-86A6-A0C25AB52065}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

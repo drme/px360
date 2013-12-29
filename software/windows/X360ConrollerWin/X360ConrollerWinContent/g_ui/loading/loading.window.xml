@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window backColor="None" height="480" name="LoadingWindow" width="800" x="0" y="0" borderStyle="None" moveable="false" sizeable="false">
+
+	<progressBar anchor="5" name="pbLoaded1" width="800" height="4" x="0" y="476" transparent="true" borderStyle="None" barColor="#227,#174,#61,#255"/>
+
+</window>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window moveable="false" sizeable="false" borderStyle="None" backColor="Black" width="800" height="480" x="0" y="0" opacity="0.85" centerDesktop="true">
+
+  <picture borderStyle="None" backImage="" backColor="None" name=""  x="0" y="0" width="800" height="460" anchor="13" icon="g_ui/main_menu/spinner" />
+
+  <label name="messageLabel" x="0" y="280" width="800" height="24" text="Saving..." font.size="20" text.color="White" text.align="MiddleCenter" font.name="Segoe WP Light"/>
+
+</window>

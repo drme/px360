@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<config>
+
+  <variables>
+    <variable name="render.fov" value="90"/>
+    <variable name="render.zoomfov" value="75."/>
+    <variable name="render.znear" value="0.40000000596046448"/>
+    <variable name="render.zfar" value="20000"/>
+    <variable name="render.textures.bits" value="0"/>
+    <variable name="render.textures.quality" value="0"/>
+    <variable name="render.textures.magfilter" value="Linear"/>
+    <variable name="render.textures.minfilter" value="LinearMipMapNearest"/>
+    <variable name="render.textures.compress" value="false"/>
+    <variable name="render.fullscreen" value="true"/>
+    <variable name="render.showtris" value="false"/>
+    <variable name="render.width" value="1280"/>
+    <variable name="render.height" value="1024"/>
+    <variable name="render.colorbits" value="32"/>
+    <variable name="render.zbits" value="32"/>
+    <variable name="render.stencilbits" value="8"/>
+    <variable name="render.displayrefresh" value="60"/>
+    <variable name="render.posx" value="0"/>
+    <variable name="render.posy" value="0"/>
+    <variable name="render.grayscale" value="false"/>
+    <variable name="render.clear" value="true"/>
+    <variable name="render.gamma" value="1.0036630630493164"/>
+    <variable name="world.Lockview" value="false"/>
+  </variables>
+
+  <bindings>
+    <bind function="ToggleMenu" key="ESCAPE"/>
+    <bind function="Jump" key="A"/>
+    <bind function="StepLeft" key="S"/>
+    <bind function="StepRight" key="D"/>
+    <bind function="ToggleConsole" key="GRAVE"/>
+    <bind function="ToggleConsole" key="OemTilde"/>
+    <bind function="MoveBack" key="X"/>
+    <bind function="Duck" key="SPACE"/>
+    <bind function="MoveForward" key="UP"/>
+    <bind function="MoveForward" key="RightButton"/>
+    <bind function="MouseMove" key="MouseMove"/>
+    <bind function="Spectate" key="B"/>
+    <bind function="Fire" key="LeftButton"/>
+    <bind function="Zoom" key="W"/>
+  </bindings>
+
+</config>
