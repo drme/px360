@@ -33,11 +33,11 @@ The first thing what we have to do is to solder wires to the Xbox controller. Ea
 
 The joysticks are made of potentiometers, and each potentiometer contains 3 connections: power, ground and wiper. What we are interested here is the wiper, as the wiper value controls the joystick or trigger position. So for hacking joysticks, we have to de-solder them and solder wires to their wipers and power connections (as ground again is the same we will not be soldering wires for it on the controller as well, the connection on the Arduino shield will be used instead).  The same soldering is needed for each trigger button.
 
-![thumb sticks connection](http://farm3.staticflickr.com/2866/11630390575_62d619bd0e.jpg)
+![thumb sticks connection](http://farm3.staticflickr.com/2866/11630390575_70261c20c4.jpg)
 
 Here is the schematics of all required wires to be soldered and their labels, it’s important to keep track which wire is which, as all of them will have to be plugged in into the Arduino shield.
 
-<< controller schematics >>
+![controller schematics](http://farm6.staticflickr.com/5475/11631542203_19867d74a1.jpg)
 
 # Arduino shield
 The next step is to construct the Arduino shield, that would contain transistors for pushing buttons and digital potentiometer for controlling (or acing instead of) thumb sticks and trigger buttons. For each Xbox controllers button one Arduino pin will be needed, that pin will be connected to the transistors base through the resistor (for limiting a current and not frying the transistors). AS there are 15-teen buttons on the controller we would need 15 transistors and 15 resistors. So for saving soldering job and using less components and less shield space, the integrated circuit that contains 5 transistors in one package is used. It’s basically the same 5 transistors just tightly packed into one package.
@@ -70,7 +70,8 @@ The Arduino sketch is available in the github here.
 
 PC software
 Finally, the software on PC is needed that would read keyboard and mouse actions and pass them to the Arduino, which in turn would control the Xbox controller. The PC software is the XNA application that renders simple UI for setting up controls and displays key bindings. This application opens serial port connection to the Arduino and passes the desired button press states and desired thumb sticks positions to the Arduino.
-<< status window>>
+
+![status window](http://farm8.staticflickr.com/7378/11633221733_48674f7ba0.jpg)
 
 ![settings](http://farm4.staticflickr.com/3776/11631302445_51de952c83.jpg)
 
@@ -80,7 +81,7 @@ And finally we need some nice box to store modified controller and Arduino shiel
 
 ![controller + shield](http://farm8.staticflickr.com/7430/11631766294_d5f1db2d13.jpg)
 
-Or put into some nice enclosure. WE decided to reuse a case for broken mac-mini computer, as its pretty nice case with enough space for storing hacked controller and the Arduino with its shield. Thus this case has one problem – it’s made of aluminium, which blocks wireless signals pretty well. So as we also decided to keep this case nearby the Xbox itself, there is no problem with that. To fit all nicely into mac mini case we have designed a ports PCB for nicely plugging the USB cable into mac mini USB ports, which are connected to the Arduino itself. Here is the PCB design of ports extension board.
+Or put into some nice enclosure. We have decided to reuse a case for broken mac-mini computer, as its pretty nice case with enough space for storing hacked controller and the Arduino with its shield. Thus this case has one problem – it’s made of aluminium, which blocks wireless signals pretty well. So as we also decided to keep this case nearby the Xbox itself, there is no problem with that. To fit all nicely into mac mini case we have designed a ports PCB for nicely plugging the USB cable into mac mini USB ports, which are connected to the Arduino itself. Here is the PCB design of ports extension board.
 
 ![mac-mini ports](http://farm4.staticflickr.com/3806/11632141856_57c4f4fece.jpg)
 
@@ -105,4 +106,6 @@ Not it’s time to play games.
 # References
 
 [1] http://xim3.com/
+
 [2] http://blog.gimx.fr/
+
